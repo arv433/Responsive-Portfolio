@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Arvin's Basic Portfolio</title>
+</head>
+
+<body>
+    <div id="headerArea">
+        <div id="myName">
+            <h1>Arvin Zojaji</h1>
+        </div>
+        <div id="navContainer">
+        <nav id="navigation">
+            <a href="index.html">About </a>
+            <span class="pipeSigns">| </span>
+            <!-- The pipe signs are given spans with the same class in order to give them a lighter color in CSS -->
+            <a href="portfolio.html">Portfolio </a>
+            <span class="pipeSigns">| </span>
+            <a href="contact.html">Contact</a>
+        </nav>
+        </div>
+    </div>
+
+    <div id="mainBody">
+        <div id="mainBodyTitle">
+            <h2>Portfolio</h2>
+        </div>
+        <!--Portfolio is made into a table to neatly organize images with HTML-->
+        <table>
+            <tr>
+                <td>
+                    <div class="imageContainer">
+                        <img src="assets/images/150.png" alt="firstPlaceholder">
+                        <div class="imageBanner">Hangman</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="imageContainer">
+                        <img src="assets/images/150-2.png" alt="secondPlaceholder">
+                        <div class="imageBanner">RPG Game</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="imageContainer">
+                        <img src="assets/images/150-3.png" alt="thirdPlaceholder">
+                        <div class="imageBanner">Trivia Game</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="imageContainer">
+                        <img src="assets/images/150-4.png" alt="fourthPlaceholder">
+                        <div class="imageBanner">Rutgers Info Widget</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="imageContainer">
+                        <img src="assets/images/150-5.png" alt="fifthPlaceholder">
+                        <div class="imageBanner">Rock Paper Scissors</div>
+                    </div>
+                </td>
+                <!-- The following empty table element is added to have a W3-valid HTML table -->
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="footerArea"></div>
+</body>
+
+</html>

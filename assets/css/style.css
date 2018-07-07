@@ -187,13 +187,17 @@ table {
 
     #mainBody {
         width: 85%;
-        margin: 60px auto 100px auto;
+        margin: auto auto 100px auto;
     }
     /* the size of the mainBody div scales with the size of the viewport after the 768px breakpoint */
 
 }
 
 @media only screen and (max-width: 640px) {
+
+    #mainBody {
+        margin-top: 60px;
+    }
 
     #myName {
         width: 100%;

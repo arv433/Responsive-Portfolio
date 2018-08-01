@@ -65,7 +65,7 @@ h1, h2 {
 #mainBody {
     top: 100px;
     width: 960px;
-    margin: 0 auto;
+    left: 15%;
     margin-bottom: 120px;
     position: relative;
     background-color: #ffffff;
@@ -123,6 +123,10 @@ table {
     /* made a div for each box to contain the image and its corresponding banner */
 }
 
+a.imageContainer {
+    display: block;
+}
+
 .imageBanner {
     float: left;
     position: absolute;
@@ -171,6 +175,8 @@ table {
 
     #mainBody {
         width: 80%;
+        left: 0;
+        margin: auto;
     }
 
 }
@@ -187,7 +193,6 @@ table {
 
     #mainBody {
         width: 85%;
-        margin: auto auto 100px auto;
     }
     /* the size of the mainBody div scales with the size of the viewport after the 768px breakpoint */
 

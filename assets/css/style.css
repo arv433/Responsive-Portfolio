@@ -171,6 +171,19 @@ a.imageContainer {
     z-index: 3;
 }
 
+#cryptoplayImg {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+#cryptoplayContainer {
+    width: 200px;
+    height: 150px;
+    background-image:url('../images/what-the-hex-dark.png');
+    background-repeat: repeat;
+}
+
 @media only screen and (max-width: 980px) {
 
     #mainBody {

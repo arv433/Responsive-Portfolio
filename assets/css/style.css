@@ -1,5 +1,5 @@
 body {
-    background-image:url('../images/wood_pattern.png');
+    background-image:url('../images/pipes.png');
     background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -7,8 +7,8 @@ body {
 }
 
 #headerArea {
-    background-color: #ffffff;
-    border-bottom: 2px solid #dddddd;
+    background-color: #777777;
+    border-bottom: 2px solid #000000;
     position: fixed;
     width: 100%;
     top: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 #myName {
-    background-color: #4aaaa5;
+    background-color: #000000;
     color: #ffffff;
     width: 200px;
     padding: 7px;
@@ -39,6 +39,10 @@ body {
     margin-right: 20px;
 }
 
+nav > a {
+    color: #ffffff;
+}
+
 .pipeSigns {
     color: #d1d1d1;
 }
@@ -48,13 +52,13 @@ a:link {
     /* Removal of underline on the three links */
 }
 
-a:visited {
-    color: #777777;
+nav > a {
+    color: #ffffff;
     /* Removal of purple color when a link was visited, matching the regular color */
 }
 
 a:hover{
-    color: #4aaaa5;
+    color: #000000;
     /* Matching color change when a link is hovered over */
 }
 
@@ -75,9 +79,9 @@ h1, h2 {
 #mainBodyTitle {
     margin: 0 auto;
     width: 90%;
-    color: #4aaaa5;
+    color: #000000;
     position: relative;
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 2px solid #000000;
 }
 
 #mainBodyContent {
@@ -92,23 +96,26 @@ h1, h2 {
     width: 180px;
     float: left;
     margin: 10px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid #000000;
 }
 
 #aboutMeText {
-    margin: 10px;
+    margin: 35px;
 }
 
 input[type=submit] {
     border: 0;
     padding: 10px 30px;
-    background: #4aaaa5;
+    background: #777777;
     color: #ffffff;
     transition: background-color 0.5s ease;
     /* gradual transition in color when the submit button is hovered over */
 }
 
 input[type=submit]:hover{
-    background-color: #008B8B;
+    background-color: #000000;
     /* the button becomes a darker shade of teal when the user hovers their mouse */
 }
 
@@ -134,7 +141,7 @@ a.imageContainer {
     top: 60%;
     /* these attributes put the banner over the image container with 60% space from the top */
     z-index: 2;
-    background-color: #4aaaa5;
+    background-color: #777777;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color: #ffffff;
     padding: 0px;
@@ -147,7 +154,7 @@ a.imageContainer {
 }
 
 .imageBanner:hover {
-    background-color: #008B8B;
+    background-color: #000000;
     /* darker shade of teal on hover */
 }
 
@@ -160,14 +167,14 @@ a.imageContainer {
 }
 
 #footerArea {
-    background-color: #666666;
+    background-color: #777777;
+    border-top: 2px solid #000000;
     position: fixed;
     left: 0;
     height: 80px;
     width: 100%;
     bottom: 0;
     /* fixed position on body and 0 space from bottom to simulate a sticky footer */
-    border-top: 5px solid #4aaaa5;
     z-index: 3;
 }
 
@@ -190,6 +197,7 @@ a.imageContainer {
         width: 80%;
         left: 0;
         margin: auto;
+
     }
 
 }

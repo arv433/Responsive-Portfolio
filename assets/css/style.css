@@ -1,5 +1,5 @@
 body {
-    background-image:url('../images/pipes.png');
+    background-image: url('../images/pipes.png');
     background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -39,7 +39,7 @@ body {
     margin-right: 20px;
 }
 
-nav > a {
+nav>a {
     color: #ffffff;
 }
 
@@ -52,12 +52,12 @@ a:link {
     /* Removal of underline on the three links */
 }
 
-nav > a {
+nav>a {
     color: #ffffff;
     /* Removal of purple color when a link was visited, matching the regular color */
 }
 
-a:hover{
+a:hover {
     color: #000000;
     /* Matching color change when a link is hovered over */
 }
@@ -114,7 +114,7 @@ input[type=submit] {
     /* gradual transition in color when the submit button is hovered over */
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: #000000;
     /* the button becomes a darker shade of teal when the user hovers their mouse */
 }
@@ -164,6 +164,7 @@ a.imageContainer {
     width: 95%;
     position: relative;
     left: 5%;
+    text-align: center;
 }
 
 #footerArea {
@@ -187,50 +188,40 @@ a.imageContainer {
 #cryptoplayContainer {
     width: 200px;
     height: 150px;
-    background-image:url('../images/what-the-hex-dark.png');
+    background-image: url('../images/what-the-hex-dark.png');
     background-repeat: repeat;
 }
 
 @media only screen and (max-width: 980px) {
-
     #mainBody {
         width: 80%;
         left: 0;
         margin: auto;
-
     }
-
 }
 
 @media only screen and (max-width: 768px) {
-
     input[type=text] {
         width: 80%;
     }
-
     textarea {
         width: 80%;
     }
-
     #mainBody {
         width: 85%;
     }
     /* the size of the mainBody div scales with the size of the viewport after the 768px breakpoint */
-
 }
 
 @media only screen and (max-width: 640px) {
-
     #mainBody {
         margin-top: 60px;
     }
-
     #myName {
         width: 100%;
         left: 0%;
         text-align: center;
     }
-
     #navContainer {
         margin: auto;
         width: 100%;
@@ -238,11 +229,9 @@ a.imageContainer {
         height: 50px;
     }
     /* setting the widths of the two divs in the header allows them to be stacked on top of each other */
-
     #navigation {
         margin-top: 18px;
     }
-
     #profilePhoto {
         max-width: 70%;
         float: none;
@@ -250,15 +239,12 @@ a.imageContainer {
         margin-left: 20%;
     }
     /* the width of the photo scales with the size of the viewport and loses its float to stack on top of the text */
-
     td {
         display: table-row;
     }
-
     table {
         border-spacing: 0;
     }
-
     .imageContainer {
         margin: 10px;
     }
